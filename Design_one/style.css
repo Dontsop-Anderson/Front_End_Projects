@@ -1,3 +1,12 @@
+/* *{
+    border: 1px solid red;
+} */
+
+/* common styles for all webpage */
+body {
+    margin: 0;
+}
+
 /* common nav styles */
 .navigation-wrapper {
     height: 190px;
@@ -8,4 +17,30 @@
     justify-content: space-between;
     align-items: center;
     padding: 60px 100px;
+}
+
+.left-column { 
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+.right-column {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+.logo i {
+    font-size: 2em;
 }
