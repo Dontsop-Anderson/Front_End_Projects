@@ -5,6 +5,7 @@
 /* common styles for all webpage */
 body {
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 /* common nav styles */
@@ -43,4 +44,27 @@ body {
 
 .logo i {
     font-size: 2em;
+}
+
+.left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.contact-hours-wrapper > .time {
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.address-wrapper {
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.banner-image img {
+    width: 216px;
+    height: 100%;
 }
