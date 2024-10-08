@@ -1,0 +1,138 @@
+/* common nav styles */
+.navigation-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* This is now a Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+
+/* left column styles begins here */
+.navigation-wrapper > .left-column { 
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .icon {
+    margin-right: 15px;
+}
+
+.navigation-wrapper > .left-column > .icon i {
+    font-size: 2em;
+}
+
+.navigation-wrapper > .logo {
+    margin-left: 15px;
+}
+
+.navigation-wrapper > .logo i {
+    font-size: 2em;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .time {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+}
+
+
+/* center column styles begins here */
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/* nav amination css */
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .banner-image{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .banner-image img {
+    width: 216px;
+    height: 100%;
+}
+
+.links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 0; */
+}
+
+
+/* right column styles begins here */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .contact-logo {
+    margin-left: 15px;
+}
+
+.navigation-wrapper > .right-column > .contact-logo i {
+    font-size: 2em;
+    color: #cbcbcb;
+}
+
+.navigation-wrapper > .right-column > .contact-logo i:hover {
+    color: #cea135;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper {
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.address-wrapper > .location a {
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.address-wrapper > .location a:hover {
+    color: #cea135;
+}
+
+.address-wrapper > .position a {
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.address-wrapper > .position a:hover {
+    color: #cea135;
+}

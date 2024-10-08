@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    
+    <!-- Font Awesome for social media icons -->
     <script src="https://kit.fontawesome.com/b3c86e6d24.js" crossorigin="anonymous"></script>
 
     <!-- Roboto style font from google fonts -->
@@ -39,29 +42,32 @@
             </div>
         </div>
         
-        <!-- Link wrapper -->
-        <div>
+        <!-- center column  -->
+        <div class="center-column">
             <div class="banner-image">
                 <img src="./images/logos/decamp-fantastic-fries-logo-white.png" alt="Logo">
             </div>
-            <!-- nav link -->
-            <div class="nav-link">
-                <a href="index.html">Home</a>
-            </div>
+            <!-- Links wrapper -->
+            <div class="links-wrapper">
+                <!-- nav link -->
+                <div class="nav-link">
+                    <a href="index.html">Home</a>
+                </div>
 
-            <!-- nav link -->
-            <div class="nav-link"> 
-                <a href="about.html">About</a>
-            </div>
+                <!-- nav link -->
+                <div class="nav-link"> 
+                    <a href="about.html">About</a>
+                </div>
 
-            <!-- nav link -->
-            <div class="nav-link">
-                <a href="menu.html">Menu</a>
-            </div>
+                <!-- nav link -->
+                <div class="nav-link">
+                    <a href="menu.html">Menu</a>
+                </div>
 
-            <!-- nav link -->
-            <div class="nav-link">
-                <a href="contact.html">Contact</a>
+                <!-- nav link -->
+                <div class="nav-link">
+                    <a href="contact.html">Contact</a>
+                </div>
             </div>
         </div>
 
@@ -69,11 +75,17 @@
         <div class="right-column">
             <!-- Address -->
             <div class="address-wrapper">
-                123 Any Street
-                Scottsdale, AZ, 85251
+                <div class="location">
+                    <a href="contact.html">123 Any Street</a>
+                </div>
+                <div class="position">
+                    <a href="contact.html">Scottsdale, AZ, 85251</a>
+                </div>
             </div>
-            <div class="logo">
-                <i class="fa-solid fa-location-dot"></i>
+            <div class="contact-logo">
+                <a href="contact.html">
+                    <i class="fa-solid fa-location-dot"></i>
+                </a>
             </div>
         </div>
     </div>
