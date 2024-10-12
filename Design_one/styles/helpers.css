@@ -3,3 +3,19 @@
     height: 60px;
     width: 100%;
 }
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:focus {
+    outline: none;
+}
+
+.anchor-link h1::after {
+    /* important to add font-family, Font Awesome and  the version if not it wouldn't work */
+    font-family: "Font Awesome 5 Free";
+    /* f0c1 represent the unicode of the icon from Font Awesome  */
+    content: " \f0c1";
+    font-weight: 900;
+}
