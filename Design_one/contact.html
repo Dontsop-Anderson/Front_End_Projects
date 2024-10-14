@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="/Design_one/styles/skewed-header.css">
     <link rel="stylesheet" href="/Design_one/styles/page-container.css">
     <link rel="stylesheet" href="/Design_one/styles/helpers.css">
+    <link rel="stylesheet" href="/Design_one/styles/contact.css">
+    <link rel="stylesheet" href="/Design_one/styles/form.css">
+    <link rel="stylesheet" href="/Design_one/styles/button.css">
+    <link rel="stylesheet" href="/Design_one/styles/media-queries.css">
 
     <!-- Font Awesome for social media icons -->
     <script src="https://kit.fontawesome.com/b3c86e6d24.js" crossorigin="anonymous"></script>
@@ -100,23 +104,30 @@
 
             </div>
 
-            <div class="form">
+            <form>
                 <div class="form-group">
-                    Name
+                    <input type="text" id="fullName" placeholder="Your name">
+                    <label for="fullName">Your Name</label>
                 </div>
 
                 <div class="form-group">
-                    Email
+                    <input type="email" id="email" placeholder="Your name">
+                    <label for="email">Your Email</label>
                 </div>
 
                 <div class="form-group">
-                    Message
+                    <textarea id="message" placeholder="Message"></textarea>
+                    <label for="message">Message</label>
                 </div>
+
+                <!-- space between form and the divs -->
+                <div class="spacer10"></div>
+
 
                 <div class="centered-btn-wrapper">
-                    <button type="submit">Send</button>
+                    <button type="submit" class="btn">Send</button>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 
