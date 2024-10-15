@@ -1,0 +1,29 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+body {
+    margin: 40px;
+    border: 2px solid black;
+    font-family: "Roboto", sans-serif;
+}
+
+.container-wrapper {
+    width: 80%;
+    margin: 80px auto;
+}
+
+hr {
+    width: 70%;
+    border: 1px solid black;
+    margin-right: 220px;
+}
+
+.container-wrapper > .info-wrapper > h4 {
+    color: rgb(67, 169, 67);
+}
+
+.container-wrapper > .info-wrapper > p {
+    /* font-size: 18px; */
+    line-height: 0.3;
+}
