@@ -3,20 +3,22 @@
 } */
 
 body {
-    margin: 40px;
-    border: 2px solid black;
+    margin: 40px auto;
+    border: 4px solid black;
     font-family: "Roboto", sans-serif;
+    width: 70%;
 }
 
+
 .container-wrapper {
-    width: 80%;
+    width: 90%;
     margin: 80px auto;
 }
 
 hr {
     width: 70%;
     border: 1px solid black;
-    margin-right: 220px;
+    margin-right: 380px;
 }
 
 .container-wrapper > .info-wrapper > h4 {
@@ -26,4 +28,47 @@ hr {
 .container-wrapper > .info-wrapper > p {
     /* font-size: 18px; */
     line-height: 0.3;
+}
+
+
+.container-wrapper >.skills-wrapper {
+    width: 70%;
+}
+
+.container-wrapper >.skills-wrapper > h4 {
+    color: rgb(76, 182, 76);
+    margin-top: 35px;
+}
+
+.container-wrapper > .skills-wrapper > p {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.container-wrapper > .education-wrapper > h4 {
+    color: rgb(76, 182, 76);
+    margin-top: 20px;
+}
+
+.container-wrapper > .education-wrapper :nth-child(2) {
+    color: rgb(14, 183, 226);
+}
+.container-wrapper > .education-wrapper > :nth-child(3){
+    line-height: 0;
+}
+
+.container-wrapper > .education-wrapper > :nth-child(4){
+    line-height: 1;
+}
+
+.container-wrapper > .experience-wrapper > .part1 > h4 {
+    color: rgb(76, 182, 76);
+}
+
+.blue {
+    color: rgb(14, 183, 226);
+}
+
+footer > h3 {
+    color: rgb(76, 182, 76);
 }
